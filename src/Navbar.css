@@ -1,0 +1,28 @@
+  /* Navbar.css */
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-left: 10px;
+    margin-right: 10px; /* Espacio entre elementos */
+    flex-grow: 1; /* Distribuir el espacio de manera uniforme entre elementos */
+    text-align: center; /* Centrar el contenido horizontalmente */
+  }
+  
+  .navbar li a {
+    text-decoration: none; /* Quita el subrayado */
+    color: #333; /* Color del texto */
+    padding: 5px 10px;
+    border: 1px solid #333; /* Borde alrededor de los enlaces */
+    border-radius: 5px; /* Bordes redondeados */
+    display: block; /* Para que el padding funcione correctamente */
+  }
+  
+  .navbar li a:hover {
+    background-color:#333; /* Color de fondo al pasar el ratón por encima */
+    color: #fff; /* Cambio de color del texto al pasar el ratón por encima */
+  }
